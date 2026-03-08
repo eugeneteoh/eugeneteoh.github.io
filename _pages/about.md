@@ -15,8 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I was previously a Senior Machine Learning Research Engineer at a Robot Learning Lab in London, working with [Stephen James](https://stepjam.github.io/). I work on research in Robot Learning, which includes the intersection between Reinforcement Learning, Imitation Learning and Representation Learning. My research interest lies in online learning for robotics. I'm interested in demo-driven reinforcement learning combined with pretraining and inductive biases such as 3D vision priors to achieve high sample efficiency. Specifically, I'm interested in learning policies from a limited number of demonstrations and interactions, and continuing learning in an online manner.
+Hello! I'm an ML Engineer at Wayve in London, where I work on reinforcement learning research.
 
-Previously, I was a Data Scientist at AWS Professional Services, helping enterprise customers build Machine Learning solutions using AWS.
+Previously, I worked in the Dyson Robot Learning Lab with [Stephen James](https://stepjam.github.io/). More broadly, I'm interested in research in robot learning.
 
-I also regularly train [Olympic Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting), competing in local competitions around the UK.
+Before that, I was a Data Scientist at AWS Professional Services, helping enterprise customers build machine learning solutions on AWS.
+
+Outside of work, I regularly train [Olympic Weightlifting](https://en.wikipedia.org/wiki/Olympic_weightlifting) and compete in local competitions around the UK.
