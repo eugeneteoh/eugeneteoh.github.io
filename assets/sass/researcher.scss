@@ -59,6 +59,10 @@ $y-medium: 1.0rem;
 }
 .nav-link {
     @extend %link-default;
+    font-size: 0.8rem;
+}
+.navbar-text {
+    font-size: 0.8rem;
 }
 #content {
     a {
