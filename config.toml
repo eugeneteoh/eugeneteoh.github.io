@@ -1,0 +1,66 @@
+baseURL = "https://eugeneteoh.com/"
+languageCode = "en-gb"
+title = "Eugene Teoh"
+theme = "hugo-researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+
+[params]
+  author = "Eugene Teoh"
+  lang = "en"
+  description = "ML Engineer at Wayve in London, working on reinforcement learning research."
+  [params.style]
+    fontFamily = "Inconsolata"
+    fontSize = "15pt"
+    pageWidth = "760px"
+    avatarSize = "140px"
+    colorBlack = "#1f1f1f"
+    colorRed = "#bb2d3b"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:eugenetwc1@gmail.com"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/eugeneteoh"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/eugene-teoh/"
+  [[params.socialIcons]]
+    icon = "fab fa-x-twitter"
+    title = "X"
+    url = "https://x.com/eugene_teoh"
+  [[params.socialIcons]]
+    icon = "ai ai-google-scholar"
+    title = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=T_wTaKMAAAAJ"
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/eugeneteoh"
+    weight = 2
+  [[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/eugene-teoh/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Publications"
+    url = "https://scholar.google.com/citations?user=T_wTaKMAAAAJ"
+    weight = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
