@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Eugene Teoh"
 +++
 
 {{< figure class="avatar" src="/avatar.png" alt="Eugene Teoh" >}}
